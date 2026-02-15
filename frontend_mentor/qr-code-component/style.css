@@ -6,7 +6,7 @@
 
 :root {
     --white: hsl(0, 0%, 100%);
-    --slate-300: hsl(212, 45%, 89%);
+    --slate-300: hsl(212, 46%, 89%);
     --slate-500: hsl(216, 15%, 48%);
     --slate-900: hsl(218, 44%, 22%);
 }
@@ -40,7 +40,7 @@ img {
     padding: 20px;
     background-color: var(--white);
     border-radius: 12px;
-    box-shadow: 10px 10px ;
+    box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.1);
 }
 
 .attribution { font-size: 11px; text-align: center; }
