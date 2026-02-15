@@ -2,7 +2,6 @@
 
 * {
     font-family: "Outfit", sans-serif;
-    background-color: var(--slate-300);
 }
 
 :root {
@@ -10,6 +9,10 @@
     --slate-300: hsl(212, 45%, 89%);
     --slate-500: hsl(216, 15%, 48%);
     --slate-900: hsl(218, 44%, 22%);
+}
+
+.container {
+    background-color: var(--slate-300);
 }
 
 h2 {
@@ -23,7 +26,7 @@ p {
 }
 
 img {
-
+    border-radius: 10px;
 }
 
 .card {
@@ -31,9 +34,12 @@ img {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex: ;
+    flex-grow: 0;
     margin: 200px;
     padding: 20px;
     background-color: var(--white);
-    
+    border-radius: 12px;
 }
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
