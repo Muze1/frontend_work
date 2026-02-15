@@ -1,2 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
+* {
+    font-family: "Outfit", sans-serif;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+p {
+    font-weight: 400;
+    font-size: 15px;
+}
+
