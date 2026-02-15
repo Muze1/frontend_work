@@ -11,7 +11,7 @@
     --slate-900: hsl(218, 44%, 22%);
 }
 
-.container {
+body {
     background-color: var(--slate-300);
 }
 
